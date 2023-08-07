@@ -421,17 +421,6 @@ export const PowerRow = (props) => {
                   label="Show Damage from Hide (Stealth Crit)"
                   onChange={e => handleDisplayStealthCrit(e)}
                 />
-                {
-                  props.primaryPowersetData[0].full_name.split('.')[1] === "Martial_Arts" && (
-                    <Form.Check
-                      type="checkbox"
-                      defaultChecked={true}
-                      value={displayScrapperCriticalDamage}
-                      label="Show Eagle's Claw Crit Bonus"
-                      onChange={e => handleDisplayScrapperCriticalDamageChange(e)}
-                    />
-                  )
-                }
               </Form.Group>
             </Col>
           </Row>

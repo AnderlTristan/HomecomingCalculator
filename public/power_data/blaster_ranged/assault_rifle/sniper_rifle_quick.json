@@ -3,7 +3,7 @@
   "full_name": "Pets.Blaster_AR_Snipe.Sniper_Rifle_Quick",
   "short_name": "Sniper_Rifle_Quick",
   "type": "Click",
-  "display_name": "Sniper Rifle Quick",
+  "display_name": "Sniper Rifle",
   "display_fullname": "Pets.Assault Rifle.Sniper Rifle",
   "display_help": "Sniper Rifle is a powerful piece of hardware. It is very accurate and has a very long range. The impressive round can knock down its target. Like most sniper attacks, you must take your time to aim, so this attack can be interrupted. If used in conjunction with a targeting drone, the Sniper Rifle will do additional damage.<br><br><color #fcfc95>Damage: High.</color><br><color #fcfc95>Recharge: Slow.</color>",
   "display_short_help": "Sniper, High DMG(Lethal), Foe Knockback",
@@ -23,17 +23,13 @@
   ],
   "requires": "",
   "activate_requires": "",
-  "accuracy": 1.0,
+  "accuracy": 1,
   "number_allowed": 1,
   "caster_near_ground": false,
   "target_near_ground": false,
   "cast_when_dead": "AliveOnly",
-  "cast_through": [
-
-  ],
-  "toggle_ignores": [
-
-  ],
+  "cast_through": [],
+  "toggle_ignores": [],
   "ignore_level_gained": false,
   "works_on_untouchable": false,
   "works_through_vision_phase": false,
@@ -42,48 +38,46 @@
   "notify_ai_when": "Always",
   "effect_area": "SingleTarget",
   "max_targets_hit": 0,
-  "radius": 0.0,
-  "arc": 0.0,
-  "range": 80.0,
-  "range_secondary": 0.0,
-  "activation_time": 1.5,
-  "root_time": 1.5,
-  "interrupt_time": 0.0,
-  "recharge_time": 12.0,
-  "activate_period": 0.0,
+  "radius": 0,
+  "arc": 0,
+  "range": 80,
+  "range_secondary": 0,
+  "activation_time": 1,
+  "root_time": 1,
+  "interrupt_time": 0,
+  "recharge_time": 12,
+  "activate_period": 0,
   "endurance_cost": 14.352,
   "cancelable": false,
   "self_confirm": false,
   "confirm_requires": "",
   "time_to_confirm": 0,
-  "chain_delay": 0.0,
+  "chain_delay": 0,
   "chain_effect_expr": "",
-  "chain_forks": [
-
-  ],
+  "chain_forks": [],
   "chain_into_power_name": null,
   "chain_into_optional": false,
   "vec_box_offset": [
-    0.0,
-    0.0,
-    0.0
+    0,
+    0,
+    0
   ],
   "vec_box_size": [
-    0.0,
-    0.0,
-    0.0
+    0,
+    0,
+    0
   ],
   "number_of_charges": 0,
   "max_num_charges": 0,
   "destroy_on_last_use": true,
-  "power_lifetime": 0.0,
-  "max_power_lifetime": 0.0,
-  "power_lifetime_ingame": 0.0,
-  "max_power_lifetime_ingame": 0.0,
+  "power_lifetime": 0,
+  "max_power_lifetime": 0,
+  "power_lifetime_ingame": 0,
+  "max_power_lifetime_ingame": 0,
   "stacking_lifetime": false,
-  "toggle_on_time": 0.0,
-  "max_toggle_on_time": 0.0,
-  "toggle_detoggle_time": 0.0,
+  "toggle_on_time": 0,
+  "max_toggle_on_time": 0,
+  "toggle_detoggle_time": 0,
   "toggle_droppable": "Sometimes",
   "ignore_toggle_max_distance": false,
   "target_type": "Foe (Alive)",
@@ -92,9 +86,7 @@
   "targets_affected": [
     "Foe (Alive)"
   ],
-  "targets_autohit": [
-
-  ],
+  "targets_autohit": [],
   "target_requires": "",
   "proc_allowed": "All",
   "boosts_allowed": [
@@ -113,32 +105,18 @@
     "Sniper Attacks",
     "Universal Damage Sets"
   ],
-  "exclusion_groups": [
-
-  ],
-  "modes_required": [
-
-  ],
+  "exclusion_groups": [],
+  "modes_required": [],
   "modes_disallowed": [
     "Disable_All"
   ],
-  "modes_suspended": [
-
-  ],
-  "recharge_groups": [
-
-  ],
+  "modes_suspended": [],
+  "recharge_groups": [],
   "ignore_strength": false,
-  "strengths_disallowed": [
-
-  ],
-  "global_strengths_disallowed": [
-
-  ],
+  "strengths_disallowed": [],
+  "global_strengths_disallowed": [],
   "procs_only_on_main_target": false,
-  "vars_attribmods_can_reference": [
-
-  ],
+  "vars_attribmods_can_reference": [],
   "show_buff_icon": true,
   "show_in_info": true,
   "show_in_manage": true,
@@ -148,7 +126,7 @@
   "do_not_save": false,
   "max_boosts": 6,
   "boost_info": {
-    "slot_requires": null,
+    "slot_requires": "",
     "ignores_level_differences": false,
     "bonuses_ignore_exemplar": false,
     "combinable": true,
@@ -159,9 +137,9 @@
     "catalyzes_to": null,
     "max_level": 50,
     "min_slot_level": -3,
-    "min_bonus_level": null,
+    "min_bonus_level": 1,
     "computed_name": null,
-    "aspects": null,
+    "aspects": [],
     "superior_scales": false,
     "boostset_name": null,
     "global_bonuses": null,
@@ -181,15 +159,17 @@
   "highlight_expression": "",
   "highlight_icon": null,
   "highlight_color": "#00000000",
-  "travel_suppression_time": 1.0,
+  "travel_suppression_time": 1,
   "server_tray_priority": 0,
   "server_tray_requires": "",
   "abusive_buff": true,
   "position_center": "kModTarget_Caster",
-  "position_distance": 0.0,
-  "position_height": 0.0,
-  "position_yaw": 0.0,
+  "position_distance": 0,
+  "position_height": 0,
+  "position_yaw": 0,
   "face_target": true,
+  "ignore_stance": false,
+  "remember_stance": true,
   "attrib_cache": [
     "Smashing_Dmg",
     "Lethal_Dmg",
@@ -209,27 +189,19 @@
   "archetypes": [
     "blaster"
   ],
-  "redirect": [
-
-  ],
+  "redirect": [],
   "effects": [
     {
-      "tags": [
-
-      ],
-      "chance": 1.0,
-      "ppm": 0.0,
-      "delay": 0.0,
-      "radius_inner": -1.0,
-      "radius_outer": -1.0,
+      "tags": [],
+      "chance": 1,
+      "ppm": 0,
+      "delay": 0,
+      "radius_inner": -1,
+      "radius_outer": -1,
       "requires_expression": "target>enttype eq 'critter'",
-      "flags": [
-
-      ],
+      "flags": [],
       "eval_flags": 4,
-      "child_effects": [
-
-      ],
+      "child_effects": [],
       "templates": [
         {
           "attribs": [
@@ -242,22 +214,20 @@
           "table": "Ranged_Damage",
           "scale": 2.28,
           "duration": "0 seconds",
-          "magnitude": 1.0,
-          "delay": 0.0,
+          "magnitude": 1,
+          "delay": 0,
           "duration_expression": "",
           "magnitude_expression": "@StdResult * (0.211 * minmax(4.54 * source>cur.kToHit - 3.41, -1, 1) + 1)",
-          "application_period": 0.0,
-          "tick_chance": 1.0,
-          "tick_mag_multiplier": 1.0,
-          "tick_mag_additive": 0.0,
+          "application_period": 0,
+          "tick_chance": 1,
+          "tick_mag_multiplier": 1,
+          "tick_mag_additive": 0,
           "jit_requires": "",
           "caster_stack": "Individual",
           "stack": "Stack",
           "stack_limit": 2,
           "stack_key": null,
-          "cancel_events": [
-
-          ],
+          "cancel_events": [],
           "boost_mod_allowed": "Science_Boost",
           "flags": [
             "ResistMagnitude (7)",
@@ -271,12 +241,8 @@
             "display_float": null,
             "display_defense_float": null
           },
-          "suppress_events": [
-
-          ],
-          "required_events": [
-
-          ],
+          "suppress_events": [],
+          "required_events": [],
           "params": null,
           "fx": null
         }
@@ -284,22 +250,16 @@
       "is_pvp": "PVE_ONLY"
     },
     {
-      "tags": [
-
-      ],
+      "tags": [],
       "chance": 0.5,
-      "ppm": 0.0,
-      "delay": 0.0,
-      "radius_inner": -1.0,
-      "radius_outer": -1.0,
+      "ppm": 0,
+      "delay": 0,
+      "radius_inner": -1,
+      "radius_outer": -1,
       "requires_expression": "target>enttype eq 'critter'",
-      "flags": [
-
-      ],
+      "flags": [],
       "eval_flags": 0,
-      "child_effects": [
-
-      ],
+      "child_effects": [],
       "templates": [
         {
           "attribs": [
@@ -312,22 +272,20 @@
           "table": "Ranged_Knockback",
           "scale": 0.7,
           "duration": "0 seconds",
-          "magnitude": 1.0,
-          "delay": 0.0,
+          "magnitude": 1,
+          "delay": 0,
           "duration_expression": "",
           "magnitude_expression": "",
-          "application_period": 0.0,
-          "tick_chance": 1.0,
-          "tick_mag_multiplier": 1.0,
-          "tick_mag_additive": 0.0,
+          "application_period": 0,
+          "tick_chance": 1,
+          "tick_mag_multiplier": 1,
+          "tick_mag_additive": 0,
           "jit_requires": "",
           "caster_stack": "Individual",
           "stack": "Stack",
           "stack_limit": 2,
           "stack_key": null,
-          "cancel_events": [
-
-          ],
+          "cancel_events": [],
           "boost_mod_allowed": "Science_Boost",
           "flags": [
             "ResistMagnitude (7)",
@@ -341,12 +299,8 @@
             "display_float": null,
             "display_defense_float": null
           },
-          "suppress_events": [
-
-          ],
-          "required_events": [
-
-          ],
+          "suppress_events": [],
+          "required_events": [],
           "params": null,
           "fx": null
         }
@@ -354,22 +308,16 @@
       "is_pvp": "PVE_ONLY"
     },
     {
-      "tags": [
-
-      ],
+      "tags": [],
       "chance": 0.5,
-      "ppm": 0.0,
-      "delay": 0.0,
-      "radius_inner": -1.0,
-      "radius_outer": -1.0,
+      "ppm": 0,
+      "delay": 0,
+      "radius_inner": -1,
+      "radius_outer": -1,
       "requires_expression": "target>enttype eq 'player'",
-      "flags": [
-
-      ],
+      "flags": [],
       "eval_flags": 0,
-      "child_effects": [
-
-      ],
+      "child_effects": [],
       "templates": [
         {
           "attribs": [
@@ -382,22 +330,20 @@
           "table": "Ranged_Knockback",
           "scale": 0.7,
           "duration": "0 seconds",
-          "magnitude": 1.0,
-          "delay": 0.0,
+          "magnitude": 1,
+          "delay": 0,
           "duration_expression": "",
           "magnitude_expression": "",
-          "application_period": 0.0,
-          "tick_chance": 1.0,
-          "tick_mag_multiplier": 1.0,
-          "tick_mag_additive": 0.0,
+          "application_period": 0,
+          "tick_chance": 1,
+          "tick_mag_multiplier": 1,
+          "tick_mag_additive": 0,
           "jit_requires": "",
           "caster_stack": "Individual",
           "stack": "Stack",
           "stack_limit": 2,
           "stack_key": null,
-          "cancel_events": [
-
-          ],
+          "cancel_events": [],
           "boost_mod_allowed": "Science_Boost",
           "flags": [
             "ResistMagnitude (7)",
@@ -414,13 +360,11 @@
           "suppress_events": [
             {
               "event": "Knocked",
-              "always": false,
-              "post_event_duration": 10.0
+              "post_event_duration": 10,
+              "always": false
             }
           ],
-          "required_events": [
-
-          ],
+          "required_events": [],
           "params": null,
           "fx": null
         }
@@ -428,22 +372,16 @@
       "is_pvp": "PVP_ONLY"
     },
     {
-      "tags": [
-
-      ],
-      "chance": 1.0,
-      "ppm": 0.0,
-      "delay": 0.0,
-      "radius_inner": -1.0,
-      "radius_outer": -1.0,
+      "tags": [],
+      "chance": 1,
+      "ppm": 0,
+      "delay": 0,
+      "radius_inner": -1,
+      "radius_outer": -1,
       "requires_expression": "target>enttype eq 'player'",
-      "flags": [
-
-      ],
+      "flags": [],
       "eval_flags": 0,
-      "child_effects": [
-
-      ],
+      "child_effects": [],
       "templates": [
         {
           "attribs": [
@@ -454,24 +392,22 @@
           "aspect": "Absolute",
           "target": "AnyAffected",
           "table": "Ranged_PvPDamage",
-          "scale": 1.93,
+          "scale": 1.58,
           "duration": "0 seconds",
-          "magnitude": 1.0,
-          "delay": 0.0,
+          "magnitude": 1,
+          "delay": 0,
           "duration_expression": "",
           "magnitude_expression": "",
-          "application_period": 0.0,
-          "tick_chance": 1.0,
-          "tick_mag_multiplier": 1.0,
-          "tick_mag_additive": 0.0,
+          "application_period": 0,
+          "tick_chance": 1,
+          "tick_mag_multiplier": 1,
+          "tick_mag_additive": 0,
           "jit_requires": "",
           "caster_stack": "Individual",
           "stack": "Stack",
           "stack_limit": 2,
           "stack_key": null,
-          "cancel_events": [
-
-          ],
+          "cancel_events": [],
           "boost_mod_allowed": "Science_Boost",
           "flags": [
             "ResistMagnitude (7)",
@@ -485,12 +421,8 @@
             "display_float": null,
             "display_defense_float": null
           },
-          "suppress_events": [
-
-          ],
-          "required_events": [
-
-          ],
+          "suppress_events": [],
+          "required_events": [],
           "params": null,
           "fx": null
         }
@@ -498,22 +430,18 @@
       "is_pvp": "PVP_ONLY"
     },
     {
-      "tags": [
-
-      ],
-      "chance": 1.0,
-      "ppm": 0.0,
-      "delay": 0.0,
-      "radius_inner": -1.0,
-      "radius_outer": -1.0,
+      "tags": [],
+      "chance": 1,
+      "ppm": 0,
+      "delay": 0,
+      "radius_inner": -1,
+      "radius_outer": -1,
       "requires_expression": "",
       "flags": [
         "PVEOnly"
       ],
       "eval_flags": 0,
-      "child_effects": [
-
-      ],
+      "child_effects": [],
       "templates": [
         {
           "attribs": [
@@ -526,22 +454,20 @@
           "table": "Ranged_Ones",
           "scale": 0.5,
           "duration": "10 seconds",
-          "magnitude": 1.0,
-          "delay": 0.0,
+          "magnitude": 1,
+          "delay": 0,
           "duration_expression": "",
           "magnitude_expression": "",
-          "application_period": 0.0,
-          "tick_chance": 1.0,
-          "tick_mag_multiplier": 1.0,
-          "tick_mag_additive": 0.0,
+          "application_period": 0,
+          "tick_chance": 1,
+          "tick_mag_multiplier": 1,
+          "tick_mag_additive": 0,
           "jit_requires": "",
           "caster_stack": "Individual",
           "stack": "Replace",
           "stack_limit": 2,
           "stack_key": null,
-          "cancel_events": [
-
-          ],
+          "cancel_events": [],
           "boost_mod_allowed": "Science_Boost",
           "flags": [
             "IgnoreStrength (4)",
@@ -556,35 +482,29 @@
             "display_float": null,
             "display_defense_float": null
           },
-          "suppress_events": [
-
-          ],
-          "required_events": [
-
-          ],
+          "suppress_events": [],
+          "required_events": [],
           "params": null,
           "fx": null
         }
       ],
       "is_pvp": "PVE_ONLY"
-    },
+    }
+  ],
+  "activation_effects": [
     {
       "tags": [
         "Defiance"
       ],
-      "chance": 1.0,
-      "ppm": 0.0,
-      "delay": 0.0,
-      "radius_inner": -1.0,
-      "radius_outer": -1.0,
+      "chance": 1,
+      "ppm": 0,
+      "delay": 0,
+      "radius_inner": -1,
+      "radius_outer": -1,
       "requires_expression": "",
-      "flags": [
-
-      ],
+      "flags": [],
       "eval_flags": 0,
-      "child_effects": [
-
-      ],
+      "child_effects": [],
       "templates": [
         {
           "attribs": [
@@ -602,24 +522,22 @@
           "aspect": "Strength",
           "target": "Self",
           "table": "Ranged_Ones",
-          "scale": 0.0,
+          "scale": 0,
           "duration": "0 seconds",
-          "magnitude": 0.0,
-          "delay": 0.0,
+          "magnitude": 0,
+          "delay": 0,
           "duration_expression": "power.base>activatetime + 7.5",
           "magnitude_expression": "0.066 * power.base>activatetime / power.base>areafactor",
-          "application_period": 0.0,
-          "tick_chance": 1.0,
-          "tick_mag_multiplier": 1.0,
-          "tick_mag_additive": 0.0,
+          "application_period": 0,
+          "tick_chance": 1,
+          "tick_mag_multiplier": 1,
+          "tick_mag_additive": 0,
           "jit_requires": "",
           "caster_stack": "Individual",
           "stack": "Stack",
           "stack_limit": 2,
           "stack_key": null,
-          "cancel_events": [
-
-          ],
+          "cancel_events": [],
           "boost_mod_allowed": "Science_Boost",
           "flags": [
             "IgnoreStrength (4)",
@@ -628,22 +546,20 @@
           ],
           "mode_name": null,
           "target_info": null,
-          "messages": null,
-          "suppress_events": [
-
-          ],
-          "required_events": [
-
-          ],
+          "messages": {
+            "display_attacker_hit": null,
+            "display_victim_hit": null,
+            "display_float": null,
+            "display_defense_float": null
+          },
+          "suppress_events": [],
+          "required_events": [],
           "params": null,
           "fx": null
         }
       ],
       "is_pvp": "EITHER"
     }
-  ],
-  "activation_effects": [
-
   ],
   "fx": {
     "source_file": "MENU/POWERS/ANIMFX/ASSAULTWEP_AR_PLAYER_SNIPER_QUICK.PFX",
@@ -655,19 +571,13 @@
       689,
       402
     ],
-    "block_bits": [
-
-    ],
-    "wind_up_bits": [
-
-    ],
+    "block_bits": [],
+    "wind_up_bits": [],
     "hit_bits": [
       49,
       689
     ],
-    "death_bits": [
-
-    ],
+    "death_bits": [],
     "activation_bits": [
       20,
       138,
@@ -675,9 +585,7 @@
       150,
       195
     ],
-    "deactivation_bits": [
-
-    ],
+    "deactivation_bits": [],
     "initial_attack_bits": [
       20,
       138,
@@ -686,12 +594,8 @@
       689,
       402
     ],
-    "continuing_bits": [
-
-    ],
-    "conditional_bits": [
-
-    ],
+    "continuing_bits": [],
+    "conditional_bits": [],
     "activation_fx": "WEAPONS/CUSTOMWEAPON_ASSAULTRIFLE.FX",
     "deactivation_fx": null,
     "attack_fx": "WEAPONFX/PLAYER_ASSAULTRIFLE_SNIPERRIFLE.FX",
@@ -701,12 +605,8 @@
     "block_fx": null,
     "death_fx": null,
     "initial_attack_fx": "WEAPONFX/PLAYER_ASSAULTRIFLE_SNIPERRIFLE.FX",
-    "continuing_fx": [
-
-    ],
-    "conditional_fx": [
-
-    ],
+    "continuing_fx": [],
+    "conditional_fx": [],
     "mode_bits": [
       20,
       138,
@@ -714,107 +614,19 @@
       150,
       86
     ],
-    "frames_before_hit": 50,
+    "frames_before_hit": 30,
     "frames_before_secondary_hit": 0,
     "delayed_hit": false,
-    "frames_attack": 45,
-    "initial_frames_before_hit": 90,
-    "initial_attack_fx_frame_delay": 36,
-    "projectile_speed": 3.4028234663852886e38,
-    "secondary_projectile_speed": 0.0,
+    "frames_attack": 30,
+    "initial_frames_before_hit": 60,
+    "initial_attack_fx_frame_delay": 30,
+    "projectile_speed": 3.4028234663852886e+38,
+    "secondary_projectile_speed": 0,
     "initial_frames_before_block": 0,
     "ignore_attack_time_errors": null,
     "frames_before_block": 0,
     "fx_important": false
   },
-  "custom_fx": [
-    {
-      "display_name": null,
-      "token": "NoRedraw",
-      "alt_themes": [
-
-      ],
-      "category": null,
-      "palette_name": null,
-      "fx": {
-        "source_file": "MENU/POWERS/ANIMFX/ASSAULTWEP_AR_PLAYER_SNIPER_QUICK.PFX",
-        "attack_bits": [
-          20,
-          138,
-          139,
-          150,
-          689,
-          402
-        ],
-        "block_bits": [
-
-        ],
-        "wind_up_bits": [
-
-        ],
-        "hit_bits": [
-          49,
-          689
-        ],
-        "death_bits": [
-
-        ],
-        "activation_bits": [
-
-        ],
-        "deactivation_bits": [
-
-        ],
-        "initial_attack_bits": [
-          20,
-          138,
-          139,
-          150,
-          689,
-          402
-        ],
-        "continuing_bits": [
-
-        ],
-        "conditional_bits": [
-
-        ],
-        "activation_fx": "WEAPONS/CUSTOMWEAPON_ASSAULTRIFLE.FX",
-        "deactivation_fx": null,
-        "attack_fx": "WEAPONFX/PLAYER_ASSAULTRIFLE_SNIPERRIFLE.FX",
-        "secondary_attack_fx": null,
-        "hit_fx": "WEAPONFX/PISTOLHIT.FX",
-        "wind_up_fx": null,
-        "block_fx": null,
-        "death_fx": null,
-        "initial_attack_fx": "WEAPONFX/PLAYER_ASSAULTRIFLE_SNIPERRIFLE.FX",
-        "continuing_fx": [
-
-        ],
-        "conditional_fx": [
-
-        ],
-        "mode_bits": [
-          20,
-          138,
-          139,
-          150,
-          86
-        ],
-        "frames_before_hit": 50,
-        "frames_before_secondary_hit": 0,
-        "delayed_hit": false,
-        "frames_attack": 45,
-        "initial_frames_before_hit": 50,
-        "initial_attack_fx_frame_delay": 0,
-        "projectile_speed": 3.4028234663852886e38,
-        "secondary_projectile_speed": 0.0,
-        "initial_frames_before_block": 0,
-        "ignore_attack_time_errors": null,
-        "frames_before_block": 0,
-        "fx_important": false
-      }
-    }
-  ],
+  "custom_fx": [],
   "fx_only_on_main_target": false
 }
